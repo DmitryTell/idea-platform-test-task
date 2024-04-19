@@ -26,4 +26,22 @@ export const GlobalStyle = createGlobalStyle`
     button {
         cursor: pointer;
     }
+
+    @-webkit-keyframes skeleton-animation {
+      0% {
+        background: #555555;
+      }
+      100% {
+        background: #a8a8a8;
+      }
+    }
+    
+    @keyframes skeleton-animation {
+      0% {
+        background: #555555;
+      }
+      100% {
+        background: #a8a8a8;
+      }
+    }
 `;

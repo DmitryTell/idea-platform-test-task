@@ -14,7 +14,6 @@ module.exports = {
           '@layout': './src/layout',
           '@page': './src/page',
           '@interface': './src/interface',
-          '@hook': './src/hook',
           '@utils': './src/utils',
           '@redux': './src/redux',
         },

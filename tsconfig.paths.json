@@ -23,9 +23,6 @@
             "@interface/": [
                 "./src/interface"
             ],
-            "@hook/": [
-                "./src/hook"
-            ],
             "@utils/": [
                 "./src/utils"
             ],
