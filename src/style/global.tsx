@@ -29,19 +29,19 @@ export const GlobalStyle = createGlobalStyle`
 
     @-webkit-keyframes skeleton-animation {
       0% {
-        background: #555555;
+        background: #deeefb;
       }
       100% {
-        background: #a8a8a8;
+        background: #d3dde4;
       }
     }
     
     @keyframes skeleton-animation {
       0% {
-        background: #555555;
+        background: #deeefb;
       }
       100% {
-        background: #a8a8a8;
+        background: #d3dde4;
       }
     }
 `;

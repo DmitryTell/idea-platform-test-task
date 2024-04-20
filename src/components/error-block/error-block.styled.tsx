@@ -4,9 +4,9 @@ import styled from 'styled-components';
 export const ErrorBlock = styled.div`
     width: 1000px;
     height: 100vh;
+    padding-top: 150px;
     display: flex;
     justify-content: center;
-    align-items: center;
 `;
 
 export const ErrorText = styled.p`

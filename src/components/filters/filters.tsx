@@ -60,7 +60,7 @@ export const Filters = () => {
             <Styled.FiltersStopsItem
               // eslint-disable-next-line react/no-array-index-key
               key={ String(index) }
-              onClick={ () => dispatch(setStops({ stops, currentStop: index })) }
+              onClick={ () => dispatch(setStops({ stops: stops || [], currentStop: index })) }
             >
               <Styled.FiltersStopsItemBlock $isActive={ Boolean(stops?.includes(index)) }>
                 { stops?.includes(index) && <DoneIcon /> }

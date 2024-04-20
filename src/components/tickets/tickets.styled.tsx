@@ -19,7 +19,7 @@ export const TicketsList = styled.ul`
 
 export const TicketsLoadingItem = styled.li`
     width: 100%;
-    height: 100px;
+    height: 300px;
     -webkit-animation: skeleton-animation 2s linear infinite alternate both;
     animation: skeleton-animation 2s linear infinite alternate both;
 `;

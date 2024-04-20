@@ -31,10 +31,11 @@ export const filterSlice = createSlice({
       if (stops && currentStop !== null) {
         if (stops.includes(currentStop)) {
           const index = stops.indexOf(currentStop);
+          const newStops = Array.from(stops);
 
-          stops.splice(index, 1);
+          newStops.splice(index, 1);
 
-          state.stops = stops.length ? [...stops] : null;
+          state.stops = newStops.length ? [...newStops] : null;
         } else {
           state.stops = [...stops, currentStop];
         }

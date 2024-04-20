@@ -31,7 +31,7 @@ export const CurrencyButtonUsd: FC<ICurrencyButtonProps> = ({ text, currency, on
 
 export const CurrencyButtonEur: FC<ICurrencyButtonProps> = ({ text, currency, onClick }) => (
   <Styled.CurrencyButtonEur
-    disabled={ currency === 'usd' }
+    disabled={ currency === 'eur' }
     type="button"
     onClick={ onClick }
   >
