@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/idea-platform-test-task/static/js/main.49e72300.js",
+    "static/media/PlaneIcon.svg": "/idea-platform-test-task/static/media/PlaneIcon.55bf09f96593d844593c68278ec9e13b.svg",
+    "index.html": "/idea-platform-test-task/index.html",
+    "static/media/DoneIcon.svg": "/idea-platform-test-task/static/media/DoneIcon.dcbcc80207f58b969b92b9bb9d6fa0a6.svg",
+    "main.49e72300.js.map": "/idea-platform-test-task/static/js/main.49e72300.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.49e72300.js"
+  ]
+}
